@@ -5,6 +5,14 @@
     text-decoration: none;
     scroll-behavior: smooth;
   }
+  @font-face {
+    font-family: "DINCondensedBold";
+    src: url("DINCondensedBold.ttf");
+    }
+    @font-face {
+        font-family: "GillSans";
+        src: url("GillSans.ttf");
+        }
   /* Nav */
   nav{
     width: 100%;
@@ -19,12 +27,25 @@
   }
   .navbar .menu{
     display: flex;
+    width: 30%;
+  }
+  .navbar .menu .logo{
+    width: 20%;
+  }
+  .navbar .menu .menu-list{
+    width: 80%;
+    justify-content: space-between;
   }
   .navbar .menu ul, .navbar .contact ul{
     display: flex;
   }
   .navbar .menu ul li, .navbar .contact li{
     margin: 0 7px;
+    font-family: 'DINCondensedBold', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: #333333;
+    font-size: 18px;
   }
   nav .navbar ul li{
     text-decoration: none;
@@ -35,4 +56,32 @@
     background: #FFDAC9 0% 0% no-repeat padding-box;
     height: 100vh; /* This shows this section on full screen*/
     width: 100%;
+  }
+  .home-content{
+    height: 100vh; /* This shows this section on full screen*/
+    width: 100%;
+    background: url("Images/Mask_Group_22.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .home-content .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    font-family: 'DINCondensedBold', Arial, sans-serif;
+    font-weight:normal;
+  }
+  .foodexp1{
+    font-size: 82px;
+  }
+  .foodexp2{
+    font-size: 115px;
+  }
+  .foodexp3{
+    font-size: 35px;
   }
