@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    font-family: 'DINCondensedBold', Arial, sans-serif;
+    font-weight:normal;
   }
   @font-face {
     font-family: "DINCondensedBold";
@@ -51,6 +53,10 @@
     text-decoration: none;
     list-style: none;
   }
+  section .content{
+    width: 80%;
+    margin: 40px auto;
+  }
   /* Home section */
   section.home{
     background: #FFDAC9 0% 0% no-repeat padding-box;
@@ -84,4 +90,54 @@
   }
   .foodexp3{
     font-size: 35px;
+  }
+
+  /* Meet our community */
+  .section1 .body{
+    width: 70%;
+  }
+  .section2 .body{
+    width: 50%;
+  }
+  .section1 .body{
+    margin-left: auto; 
+  }
+  .section1 .title{
+    font-size: 62px;
+    font-family: 'DINCondensedBold', Arial, sans-serif;
+    font-weight:normal;
+  }
+  .section1 .boxes, .section2 .boxes{
+    display: flex;
+    /* width: 33%; */
+  }
+  .title-community{
+    text-decoration: line-through;
+    text-decoration-color: #FFDAC9;
+    text-decoration-thickness: 5px;
+  }
+  .boxes .btn{
+    background: #FFDAC9;
+    display: block;
+    color: #333333;
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 18px;
+  }
+  .box-content{
+    margin: 40px 0;
+  }
+  .box-image1{
+    width: 50%;
+    background: url('Images/pic01.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background-attachment: fixed; */
+  }
+  .box-image2{
+    width: 50%;
+    background: url('Images/pic01.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background-attachment: fixed; */
   }
